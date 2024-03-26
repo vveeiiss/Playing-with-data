@@ -3,7 +3,7 @@ import csv
 import requests
 
 API_URL = "https://api-inference.huggingface.co/models/gpt2"
-API_TOKEN = "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" #HF API Token
+API_TOKEN = "TOKEN" #HF API Token
 
 headers = {"Authorization": f"Bearer {API_TOKEN}"}
 
